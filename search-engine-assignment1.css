@@ -1,0 +1,51 @@
+h1{
+    position: absolute;
+    bottom: 340px;
+    left: 260px;
+    padding: 50px;
+    color: slategray;
+    font: 120px bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Search{
+    position: absolute;
+    bottom: 340px;
+    left: 330px;
+    margin: 5px;
+    border-width: 0px 0px 3px 0px;
+    border-bottom-color: slategray;
+    padding: 16px 395px 10px 10px;
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slategray;
+    background-color: transparent;
+}
+
+.search-btn{
+    position: absolute;
+    bottom: 345px;
+    right: 205px;
+    border-color: slategray;
+    border-width: 3px;
+    border-radius: 5px;
+    padding: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    background-color: transparent;
+    color: slategray;
+}
+
+.Search:hover{
+    text-shadow: 1px 1px 1px;
+}
+input:hover::-webkit-input-placeholder {color: darkslategrey;}
+
+input:focus::-webkit-input-placeholder {color: transparent;}
+
+.search-btn:hover{
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    color: darkslategray;
+}
